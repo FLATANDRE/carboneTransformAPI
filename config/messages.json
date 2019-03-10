@@ -3,6 +3,7 @@
         "root_dir" : "API Doc Transformation v1 - Copyright ",
         "param_body" : "Parâmetros do documento não preenchidos.",
         "param_file" : "Favor selecionar um arquivo template.",
-        "gen_file_err" : "Não foi possível gerar documento."
+        "gen_file_err" : "Não foi possível gerar documento.",
+        "download_err" : "Não foi realizar o download do arquivo."
     }
 }
