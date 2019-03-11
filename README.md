@@ -11,3 +11,16 @@ A API gera um documento com o formato informado e de acordo com o template.
 <br> npm install
 <br> 2 - Executar a aplicação
 <br> node index.js
+
+# API - Documentação
+O ponto de entrada da API:
+<br>
+<br> http://[nome do servidor]:[porta]/api/v1/documento/[tipo do documento]
+<br>
+<br> Exemplo: <span style="font-style:italic"> http://localhost:8081/api/v1/documento/docx </span>
+<br>
+<br> Os dados a serem enviados para a API são:
+<br> Arquivo template e JSON ou Formulário com os dados a serem inseridos no template
+<br> O formulário deve ter a propriedade <b>enctype="multipart/form-data"</b>
+<br>
+<br> Na pasta <b>'teste'</b> tem um formulário de exemplo para realizar testes e tem também um arquivo template chamado simple.odt de exemplo.
