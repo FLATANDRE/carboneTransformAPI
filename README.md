@@ -23,7 +23,8 @@ O ponto de entrada da API:
 <br> Arquivo template e JSON ou Formulário com os dados a serem inseridos no template
 <br> O formulário deve ter a propriedade <b>enctype="multipart/form-data"</b>
 <br>
-<br> <span style="color:red"> IMPORTANTE! </span>
-<br> A propriedade NAME do campor file no formulário deve ser igual a 'documento', caso contrário a API não irá identificar o arquivo em que foi feito o upload. 
+<br> <p style="color:red"> IMPORTANTE! </p>
+<br> A propriedade NAME do campo file no formulário deve ser igual a 'documento', caso contrário a API não irá identificar o arquivo em que foi feito o upload. 
+<br> Exemplo:  <input type="file" name="documento" />
 <br>
 <br> Na pasta <b>'teste'</b> tem um formulário de exemplo para realizar testes e tem também um arquivo template chamado simple.odt de exemplo.
