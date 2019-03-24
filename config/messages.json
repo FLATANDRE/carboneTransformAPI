@@ -4,6 +4,9 @@
         "param_body" : "Parâmetros do documento não preenchidos.",
         "param_file" : "Favor selecionar um arquivo template.",
         "gen_file_err" : "Não foi possível gerar documento.",
-        "download_err" : "Não foi realizar o download do arquivo."
+        "download_err" : "Não foi realizar o download do arquivo.",
+        "multer_upload_err" : "Houve um erro no upload do arquivo. Provavelmente o campo documento não está presente formulário.",
+        "req_err" : "Houve um erro na requisição.",
+        "header_not_found" : "Header multipart/form-data faltando."
     }
 }
