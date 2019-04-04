@@ -65,6 +65,10 @@ app.post('/api/v1/documento/:docType',  function (req, res) {
           //console.log(req.body);
           //console.log(docType);
 
+          carbone.set({
+            lang : 'pt-br'
+          });
+
           // Gera o arquivo usando o template 
           carbone.render(global.env.upload_path + template, data, function(err, result){
             if (err) {

@@ -23,7 +23,7 @@
   "homepage": "https://github.com/FLATANDRE/carboneTransformAPI#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "carbone": "^1.1.0",
+    "carbone": "^1.2.0",
     "express": "^4.16.4",
     "multer": "^1.4.1"
   }

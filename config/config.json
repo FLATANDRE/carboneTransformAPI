@@ -2,6 +2,6 @@
     "main" : {
         "download_path" : "downloads/",
         "upload_path"   : "uploads/",
-        "node_port"     : 8081
+        "node_port"     : 9081
      }
 }
